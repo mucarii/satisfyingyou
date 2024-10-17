@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   button: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#37BD6D',
     padding: 15,
     width: '100%',
     alignItems: 'center',
@@ -104,8 +104,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   errorText: {
-    color: 'red',
+    color: '#FD7979',
     marginBottom: 20,
+    alignSelf: 'flex-start',
   },
   buttonNewAccount: {
     backgroundColor: '#419ED7',
