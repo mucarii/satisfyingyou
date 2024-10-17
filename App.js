@@ -70,7 +70,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 28,
-    fontWeight: 'bold',
+    fontFamily: 'Averia Libre',
+    fontWeight: 'Regular',
     color: '#ffffff',
     marginBottom: 40,
   },
@@ -123,6 +124,7 @@ const styles = StyleSheet.create({
   rotulo:{
     color: '#FFFFFF',
     fontSize: 16,
+    fontFamily: 'Averia Libre',
     alignSelf: 'flex-start',
     marginBottom: 5,
   },
