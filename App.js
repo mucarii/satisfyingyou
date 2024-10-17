@@ -32,6 +32,7 @@ const App = () => {
         placeholderTextColor="#B0B0B0"
       />
 
+<Text style={styles.rotulo} >Senha</Text>
       <TextInput
         style={styles.input}
         placeholder="Senha"
@@ -121,7 +122,9 @@ const styles = StyleSheet.create({
   },
   rotulo:{
     color: '#FFFFFF',
-    alignContent: '',
+    fontSize: 16,
+    alignSelf: 'flex-start',
+    marginBottom: 5,
   },
 });
 
